@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UX/UI Homework 20 Jerry Yu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="">
+            <img src="images/Logo Light.png" class="img-fluid" alt="Responsive image" width="20px">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Overview<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Persona</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Prototype</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <section>
+      <div class="pageHeader">
+        <h1><strong>Ageless Alliance Website Redesign</strong></h1>
+      </div>
+
+      <div class="container-fluid content">            
+        <div class="row">
+          <div class="col-sm">
+            <div>
+                <p>Ageless Alliance is a non-profit organization that advocates against elder abuse through spreading awareness and pushing for policy changes.</p>
+                <p>As UX/UI designers, we have identified several points for improvement on their website.</p>
+            </div>
+          </div>
+          <div class="col-sm">
+              <div>
+                  <p>We conducted user research, competitor analysis, created a user persona and  a user flow, wireframed, and iterated on our design.</p>
+                  <p>Through renovating Ageless Alliance’s website for a user-friendly interface focusing on sharing stories and making donations, we have improved their user experience.</p>
+              </div>
+          </div>                
+      </div>
+      <div class="row">
+          <div class="col-sm justifyCenter textCenter">
+            <figure class="figure paddingTop">
+              <figcaption class="figure-caption">Original Webpage</figcaption>
+              <img src="images/Original.png" class="figure-img img-fluid rounded" alt="...">              
+            </figure>
+          </div>
+          <div class="col-sm justifyCenter textCenter">
+            <figure class="figure paddingTop">
+              <figcaption class="figure-caption">Renovated Webpage</figcaption>
+              <img src="images/After.png" class="figure-img img-fluid rounded" alt="...">              
+            </figure>
+          </div>   
+      </div>
+    </div>
+        
+    </section>
+
+    <section class="sectionBlue">
+      <div class="sectionHeader">
+        <h2>The Problem</h2>
+      </div>
+      <div class="container-fluid content">            
+        <div class="row">
+            <div class="col-sm">
+              <div>
+                  <p>At first glance, we thought the website is confusing and not convenient for users to navigate.</p>
+                  <p>There were allignment issues, broken links, color accesbililty issues, and hierarchy problems.</p>
+              </div>                  
+            </div>
+            <div class="col-sm">
+                <figure class="figure">
+                    <img src="images/Problems.png" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">Original Homepage of Ageless Alliance</figcaption>
+                </figure>
+            </div>                
+        </div>       
+    </div>
+
+    <div class="headsUp">      
+      <div class="bubble">
+        <div class="bubbleText">We wanted to know if users shared the same problem.</div>
+      </div>
+      <div class="speaker">
+        <img src="images/Speaker.png" class="figure-img img-fluid rounded" alt="...">
+      </div>      
+    </div>
+        
+    </section>
+    
+    <section>
+      <div class="sectionHeader">
+        <h2>User Research/Testing</h2>
+      </div>
+
+      <div class="container-fluid content">            
+        <div class="row">
+            <div class="col-sm">
+              <div>
+                  <p>To understand the problems users may have with Ageless Alliance website, we conducted 7 online interviews on people between 25 - 40 years old.</p>
+                  <p>During these interviews, we asked our users to navigate through the original website and answer questions focused on these key objectives on the right:   </p>
+              </div>                  
+            </div>
+            <div class="col-sm">
+              <div class="container">
+                <div class="row">
+                  <div class="testQ col-sm">
+                    <div><p>Can users understand the purpose of this website?</p></div>
+                  </div>
+                  <div class="testQ col-sm">
+                    <div><p>What are the pain points for our users to find resources through this website?</p></div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="testQ col-sm">
+                    <div><p>How might we make the website easier to navigate?</p></div>
+                  </div>
+                  <div class="testQ col-sm">
+                    <div><p>What frustrations do users encounter when trying to donate?</p></div>
+                  </div>                   
+                </div>
+              </div>
+            </div>                
+        </div>
+    </div>
+    <div class="sectionHeader">
+      <h2>Key Findings</h2>
+    </div>
+    <div class="container-fluid content">            
+        <div class="row">
+            <div class="col-sm">
+                <figure class="figure">
+                    <img src="images/Findings.png" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">We created an Affinity Map to sort our interview findings.</figcaption>
+                </figure>
+            </div>   
+            <div class="col-sm">
+              <div>
+                  <p><strong>Our users think ...</strong></p>
+                  <p>The original aesthetic of the page is bland and often has too much text on a single page. <br>
+                    The navigation from page to page is confusing as some key elements are either unclear or not working. <br>
+                    Sympathy, personal connections, and goals of NPOs determine if users want to make donations. <br>
+                    Most think seniors are not tech-savvy. <br>
+                    Donation is one of the most important function in an NPO’s webpage.</p>
+              </div>                  
+            </div>                             
+        </div>
+    </div>        
+    </section>
+
+    <section class="sectionBlue">
+      <div>
+
+      </div>
+      
+      <div class="sectionHeader">
+        <h2>Competitor Analysis</h2>
+      </div>
+
+      <div class="container-fluids content">
+        <p>To understand what other elder-related foundations did for their users, we evaluated the websites of four competitors.</p>
+        <p><strong>Elder Justice Coalition</strong></p>
+        <div class="row">
+          <div class="col-4">
+              <figure class="figure">
+                  <img src="images/CA1.png" class="figure-img img-fluid rounded" alt="...">
+              </figure>
+          </div>
+          <div class="col-8">
+            <div>
+                <p>Strengths</p>
+                <p>Very well laid out website, its clean and easy to read, easy to navigate.</p>
+                <p>Weaknesses</p>
+                <p>Lot of empty white space in the home page <br>
+                  No footer<br>
+                  Most pages are just plain with links<br>
+                  The search button appears at a weird spot.</p>
+            </div>                
+          </div>                                    
+        </div>
+      </div>
+      
+      <div class="justifyCenter cADots">
+        <img src="images/Dot3.png" class="img-fluid" alt="Responsive image">
+      </div>
+        
+
+      <div class="container-fluid content"> 
+          <p><strong>Elders and Courts</strong></p>           
+          <div class="row">                
+              <div class="col-8">
+                <div>
+                    <p>Strengths</p>
+                    <p>Visually engaging homepage design<br>
+                      Responsive top navigation</p>
+                    <p>Weaknesses</p>
+                    <p>Not clear of the purpose of the website<br>
+                      Text-heavy primary pages</p>
+                </div>                
+              </div> 
+              <div class="col-4">
+                  <figure class="figure">
+                      <img src="images/CA2.png" class="figure-img img-fluid rounded" alt="...">
+                  </figure>
+              </div>                                   
+          </div>           
+      </div>
+
+      <div class="justifyCenter cADots">
+        <img src="images/Dot3.png" class="img-fluid" alt="Responsive image">
+      </div>
+
+      <div class="container-fluid content"> 
+        <p><strong>The National Clearinghouse on Abuse in Later Life</strong></p>           
+        <div class="row">
+            <div class="col-4">
+                <figure class="figure">
+                    <img src="images/CA3.png" class="figure-img img-fluid rounded" alt="...">
+                </figure>
+            </div>
+            <div class="col-8">
+              <div>
+                  <p>Strengths</p>
+                  <p>Clean web page layout <br>
+                    Easy-to-read, consistent fonts<br>
+                    Clear call-to-action buttons</p>
+                  <p>Weaknesses</p>
+                  <p>Dropdowns in the secondary pages contain a lot of text and is not visually appealing.<br>
+                    The website could use more pictures</p>
+              </div>                
+            </div>                                    
+        </div>           
+      </div>
+
+      <div class="justifyCenter cADots">
+        <img src="images/Dot3.png" class="img-fluid" alt="Responsive image">
+      </div>
+
+      <div class="container-fluid content"> 
+        <p><strong>National Association of Area Agencies on Aging</strong></p>           
+        <div class="row">                
+            <div class="col-8">
+              <div>
+                  <p>Strengths</p>
+                  <p>Navigation is clear, tabs and side menus make it easy to get to pages. <br>
+                    Follows a clean design layout</p>
+                  <p>Weaknesses</p>
+                  <p>Overall, it's an overabundance of information, could be more concise and clear.<br>
+                    Looks a bit outdated, and the fonts could be a bit bigger and easier to read.</p>
+              </div>                
+            </div> 
+            <div class="col-4">
+                <figure class="figure">
+                    <img src="images/CA4.png" class="figure-img img-fluid rounded" alt="...">
+                </figure>
+            </div>                                   
+        </div>           
+      </div>          
+    </section>
+        
+
+    <section>
+        <div>
+
+        </div>
+        
+        <div class="sectionHeader">
+          <h2>Meet Evelyn Frame (Katherine's daughter)</h2>
+        </div>        
+
+        <div class="container personaGrid">
+            <div class="row">
+              <div class="col">
+                <p><strong>Behavioral Demographics</strong></p>
+                <p>Accountant<br>Lives in Mission Viejo<br>Married with 2 children<br>Visits mother in a senior center in Laguna Hills<br>Divorced</p>
+              </div>
+              <div class="col">
+                <img src="images/Persona.png" class="img-fluid" alt="Responsive image">
+              </div>
+              <div class="w-100"></div>
+
+              <div class="col">
+                <p><strong>Personality</strong></p>
+                <p>Social justice advocate<br>Feminist<br>Social and friendly<br>Crafty-likes doing art projects with her kids</p>
+              </div>            
+              <div class="w-100"></div>
+
+              <div class="col">
+                <p><strong>Wants and Needs</strong></p>
+                <p>Transparency regarding what the mission is and how her donations are being allocated.<br>Ways to find resources that will help.<br>Justice and advocacy for the elderly who are helpless and voiceless.<br>Wants to make life easier for her mother during these twilight years.<br>Spread awareness regarding elderly abuse.</p>
+              </div>              
+              <div class="col">
+                <p><strong>Pain Points</strong></p>
+                <p>Busy with work and children. Not much time for her mother.<br>She is paying for her mother's senior care and it's quite a financial burden.<br>Frustrated at the lack of awareness when it comes to elderly abuse, especially in senior care facilities.</p>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sectionBlue">
+        <div class="journeyText">
+            <h2>Evelyn’s Journey</h2>
+            <p>We created a storyboard for Evelyn to better understand her emotions while interacting with Ageless Alliance.</p>
+        </div>
+
+        <div class="journeyGraph">
+          <figure class="figure comic">
+            <img src="images/Journey1.png" class="figure-img img-fluid rounded" alt="...">
+          </figure>
+
+          <figure class="figure comic">
+            <img src="images/Journey2.png" class="figure-img img-fluid rounded" alt="...">
+          </figure>
+        </div>        
+    </section>
+
+    <section>
+        <div>
+
+        </div>
+        
+        <div class="sectionHeader">
+            <h2>User Flow</h2>
+            <p>From the research listed above, we decided on a user flow for Evelyn. The flow mainly consists of 4 sections:<br>Knowing more about the NPO, Account creation and story sharing, Making a donation, and Spreading Awareness.</p>
+            <img src="images/UserFlow.png" class="img-fluid" alt="Responsive image">            
+        </div>
+
+        <div class="sectionHeader">
+          <h2>Card Sorting</h2>
+          <div class="cardSort">
+            <div>
+              <p>To make sure Evelyn can easily go through the optimal user flow, we performed card sorting on the original website’s navigation system.</p>
+              <p>We aim to simplify the navigation to reduce redundant links that caused confusion and highlight Donation & Stories pages.</p>
+            </div>
+            <img src="images/CardSort.png" class="img-fluid" alt="Responsive image">
+          </div>          
+        </div>
+    </section>
+
+    <section class="sectionBlue">
+      <div>
+
+      </div>
+
+      <div class="sectionHeader">
+       <h2>Early Versions of Prototypes</h2>
+       <p>We headed on to wireframe several versions of prototypes.<br>One of our goals was to invoke empathy with emotional images.<br>We constantly seeked feedbacks from more users as we continued to make improvements.<br>Here is an example of one of our early-stage design changing process.</p>
+      </div>
+
+      
+      <div class="container protoGrid">
+        <div class="row">
+          <div class="col-sm">
+            <p><strong>Version 1</strong></p>
+            <p>Hero image with navigation laid on top.</p>
+            <p><em><u>Users thought the navigation bar is blocking the hero image and that stories shoud be the main focus of the site.</u></em></p>
+          </div>
+          <div class="col-sm">
+            <p><strong>Version 2</strong></p>
+            <p>New Navigation bar, carousel banner. Moved stories before news.</p>
+            <p><em><u>Users thought the navigation bar lacked hierarchy and the carousel was distracting.</u></em></p>
+          </div>
+          <div class="col-sm">
+            <p><strong>Version 3</strong></p>
+            <p>Improved navigation bar (closer to our final design), hero image with cards laid at its bottom.</p>            
+          </div>
+        </div>
+      </div>
+      <figure class="figure protoGraph">
+        <img src="images/proto..png" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+      </figure>
+
+      <div class="sectionHeader">
+        <h2>Style Tile</h2>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <img src="images/StyleTile.png" class="img-fluid" alt="Responsive image">
+          </div>
+          <div class="col-sm">
+            <p>As our prototype fidelity improved, we made use of a style tile to keep track of our designs and communicate among designers.</p>
+            <p>The stye tile was constantly updated throughout the designing process.</p>
+          </div>          
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div>
+
+      </div>
+
+      <div class="sectionHeader">
+        <h2>User Tests</h2>
+
+      </div>
+
+      <div class="container-fluid content">            
+        <div class="row">
+            <div class="col-sm">
+              <div>
+                  <p>To understand the problems users may have with Ageless Alliance website, we conducted 7 online interviews on people between 25 - 40 years old.</p>
+                  <p>During these interviews, we asked our users to navigate through the original website and answer questions focused on these key objectives on the right:</p>
+              </div>                  
+            </div>
+            <div class="col-sm">
+                
+
+
+            </div>                
+        </div>
+      </div>
+
+      <div class="sectionHeader">
+        <h2>Key Findings</h2>
+      </div>
+
+        <div class="container-fluid content">            
+            <div class="row">
+                <div class="col-sm">
+                    <figure class="figure">
+                        <img src="images/Findings2.png" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption">We created an Affinity Map to sort our interview findings.</figcaption>
+                    </figure>
+                </div>   
+                <div class="col-sm">
+                  <div>
+                      <p>Our users think ...</p>
+                      <p>Text font, size, positioning consistency issues.<br>Donation flow/interaction needs redesigning.<br>Navigation issues (Back buttons, navigation bar, “preserve scroll position”)<br>Hierarchy issues with pictures, text, and call-to-action buttons.</p>
+                  </div>                  
+                </div>                             
+            </div>
+        </div>        
+    </section>
+
+    <Section class="sectionBlue">
+      <div>
+
+      </div>
+
+      <div class="sectionHeader">
+        <h2>High-Fidelity Prototypes</h2>
+      </div>
+
+      <div class="content">
+        <p>We improved on our early version prototypes, both mobile and desktop, base on users’ feedbacks. </p>
+        <p>Please feel free to click on the devices below for a preview!</p>
+      </div>
+      <figure class="figure">
+        <a href=""><img src="..." class="figure-img img-fluid rounded" alt="..."></a>
+        <figcaption class="figure-caption">We created an Affinity Map to sort our interview findings.</figcaption>
+    </figure>
+    </Section>
+
+    <section>
+      <h2>If we had more time ...</h2>
+      <p>Here are some next-steps that we would take if we were given more time for this project.<br>1.Chat message feature on website-links to support groups and professionals who can chat in real time<br>Redesign the Ageless Alliance Flyer<br>Build connection with the Ageless Alliance NPO for more resources</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>

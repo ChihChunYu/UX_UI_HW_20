@@ -1,0 +1,159 @@
+.sectionBlue {background-color:#CFE9F2;}
+
+h1 {
+    color:#3BA4C5;
+    font-family: Montserrat;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing:0.02em;
+}
+
+p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 182%;
+}
+
+
+
+.pageHeader {
+    padding: 5% 0 5% 0;
+    text-align: center;
+}
+
+.content {
+    padding: 0% 10% 3% 10%;
+}
+
+.justifyCenter{
+    display:flex; 
+    justify-content: center !important;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.figure-caption {
+    font-style: italic;
+}
+
+.paddingTop {
+    padding: 5% 0 0 0;
+}
+
+.sectionHeader {
+    padding: 5% 0 2% 10%;
+}
+
+
+.headsUp {   
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 2% 5% 10%;
+
+}
+
+.bubble {
+    background-image: url("../images/BubbleRight.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    padding:2% 2% 2% 2%;
+   
+}
+
+.bubbleRight {
+    width:100%;
+}
+
+.bubbleText {
+    line-height:100%;    
+    
+    
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing:0.02em;
+}
+
+.speaker {
+    display:flex;
+    align-items: center;
+}
+
+
+
+.testQ {
+    background-image: url("../images/TestQ.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width:100%;
+    height:100%;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    color:white;
+
+
+}
+
+.cADots {
+    padding: 2% 0 2% 0;
+}
+
+.personaGrid {
+    padding-left: 10% !important;
+    margin-left: 0% !important; 
+}
+
+.journeyText {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.journeyGraph {
+    padding-left: 10%;
+    padding-right: 10%; 
+    padding-bottom: 2%;  
+}
+
+.comic {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cardSort {
+    display:flex;
+    padding-right:10%;
+}
+
+.protoGrid {
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    padding-left: 10%;
+    padding-right:10%;
+    display:flex;
+    justify-content: center;
+}
+
+.protoGraph {
+    padding-left:10%;
+}
