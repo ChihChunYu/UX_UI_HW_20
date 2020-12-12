@@ -1,5 +1,27 @@
 .sectionBlue {background-color:#CFE9F2;}
 
+.navbar {
+    background-color: white !important;
+}
+
+.collapse {
+    justify-content: flex-end;
+}
+
+.navbar {
+    font-family: Montserrat, Arial;
+    font-size: 28px;
+}
+
+.navbar-nav .nav-item .active .nav-link {
+    border-style: solid;
+    border-width: 0 0 5px 0 !important;
+    border-color: #3BA4C5 !important; 
+}
+
+
+
+
 h1 {
     color:#3BA4C5;
     font-family: Montserrat;
@@ -93,25 +115,43 @@ p {
     align-items: center;
 }
 
+.userResearch {
+    padding-bottom: 0 !important;
+}
 
+
+.testRow {
+    grid-gap: 0 !important;
+    padding: 0;
+    min-height: 100% !important;
+
+
+}
+
+.testQs {
+    min-height: 200px !important;
+        
+}
 
 .testQ {
     background-image: url("../images/TestQ.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    width:100%;
     height:100%;
-    
+    padding: 0 15% 0 15%; 
+
+    min-height: 100%;
+
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
 
     color:white;
-
-
 }
+
+
 
 .cADots {
     padding: 2% 0 2% 0;
