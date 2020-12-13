@@ -2,6 +2,7 @@
 
 .navbar {
     background-color: white !important;
+    margin-bottom: 5px !important;
 }
 
 .collapse {
@@ -13,13 +14,15 @@
     font-size: 28px;
 }
 
-.navbar-nav .nav-item .active .nav-link {
+a:focus {    
     border-style: solid;
     border-width: 0 0 5px 0 !important;
     border-color: #3BA4C5 !important; 
 }
 
-
+#overview {
+    margin-top:5%;
+}
 
 
 h1 {
@@ -78,24 +81,43 @@ p {
 
 .headsUp {   
     display: flex;
-    justify-content: flex-end;
-    padding: 0 2% 5% 10%;
+    margin-left:10%;
+    margin-right:10%;
 
 }
 
 .bubble {
-    background-image: url("../images/BubbleRight.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    position: relative;
+    background-color: white;
+    border-radius: 50px;
     text-align: center;
     padding:2% 2% 2% 2%;
-   
+    margin-right: 10px;
+    margin-left: 10px;
+
+    display:flex;
+    align-items: center;   
+}
+
+.bubbleBlue {
+    background-color:#CFE9F2 !important;
+}
+
+.bubbleTop {
+    padding-top: 5% !important;
+    
+}
+
+.bubbleBottom {
+    padding-bottom: 5% !important;
 }
 
 .bubbleRight {
-    width:100%;
+    justify-content: flex-end;
+}
+
+.bubbleLeft {
+    justify-content: flex-start;
+
 }
 
 .bubbleText {
@@ -106,7 +128,7 @@ p {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 36px;
+    font-size: 32px;
     letter-spacing:0.02em;
 }
 
@@ -120,28 +142,21 @@ p {
 }
 
 
-.testRow {
-    grid-gap: 0 !important;
-    padding: 0;
-    min-height: 100% !important;
-
-
-}
 
 .testQs {
-    min-height: 200px !important;
-        
+    display: flex;
+    justify-content: center;
+    height: 50%;
+           
 }
 
-.testQ {
-    background-image: url("../images/TestQ.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height:100%;
-    padding: 0 15% 0 15%; 
-
-    min-height: 100%;
+.testBubble {
+    background-color:#3BA4C5;
+    border-radius: 50%;
+    padding: 5% 5% 0 5%;
+    width: 250px;
+    min-width: 250px;
+    height: 250px;
 
     display: flex;
     align-items: center;
@@ -150,6 +165,10 @@ p {
 
     color:white;
 }
+
+.testQs {}
+
+
 
 
 
@@ -183,17 +202,26 @@ p {
 .cardSort {
     display:flex;
     padding-right:10%;
+    padding-bottom: 5%;
+}
+
+.cardSortText {
+    width: 50%;
 }
 
 .protoGrid {
     margin-left: 0% !important;
     margin-right: 0% !important;
+    width: 80% !important;
     padding-left: 10%;
     padding-right:10%;
+    padding-bottom: 5%;
     display:flex;
     justify-content: center;
 }
 
 .protoGraph {
     padding-left:10%;
+    padding-right:10%;
+
 }

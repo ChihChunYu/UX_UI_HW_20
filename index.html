@@ -7,7 +7,7 @@
 
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
     <a class="navbar-brand" href="#">
       <img src="images/Logo Light.png" class="img-fluid" alt="Responsive image" width="40px">
     </a>
@@ -18,15 +18,15 @@
 
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link" href="#">Overview</a>
-        <a class="nav-item nav-link" href="#">Research</a>
-        <a class="nav-item nav-link" href="#">Persona</a>
-        <a class="nav-item nav-link" href="#">Prototype</a>
+        <a class="nav-item nav-link" href="#overview">Overview</a>
+        <a class="nav-item nav-link" href="#research">Research</a>
+        <a class="nav-item nav-link" href="#persona">Persona</a>
+        <a class="nav-item nav-link" href="#prototype">Prototype</a>
       </div>
     </div>
   </nav>
 
-  <section>
+  <section id="overview">
     <div class="pageHeader">
       <h1><strong>Ageless Alliance Website Redesign</strong></h1>
     </div>
@@ -88,7 +88,7 @@
         </div>       
     </div>
 
-    <div class="headsUp">      
+    <div class="headsUp bubbleBottom bubbleRight">      
       <div class="bubble">
         <div class="bubbleText">We wanted to know if users shared the same problem.</div>
       </div>
@@ -99,7 +99,7 @@
         
     </section>
     
-    <section>
+    <section id="research">
       <div class="sectionHeader">
         <h2>User Research/Testing</h2>
       </div>
@@ -114,25 +114,31 @@
             </div>
 
             <div class="col-sm">
-              <div class="container">
-                <div class="row testQs">
-                  <div class="col-sm testRow">
-                    <div class="testQ"><p>Can users understand the purpose of this website?</p></div>
+              <div>
+                <div class="testQs">
+                  <div class="testBubble">
+                    <p>Can users understand the purpose of this website?</p>
                   </div>
-                  <div class="col-sm testRow">
-                    <div class="testQ"><p>What are the pain points for our users to find resources through this website?</p></div>
-                  </div>
-                </div>
 
-                <div class="row testQs">
-                  <div class="col-sm testRow">
-                    <div class="testQ"><p>How might we make the website easier to navigate?</p></div>
+                  <div class="testBubble">
+                    <p>What are the pain points for our users to find resources through this website?</p>
                   </div>
-                  <div class="col-sm testRow">
-                    <div class="testQ"><p>What frustrations do users encounter when trying to donate?</p></div>
-                  </div>                   
                 </div>
-            </div>
+              </div>
+
+              <div>
+                <div class="testQs">
+                  <div class="testBubble">
+                    <p>How might we make the website easier to navigate?</p>
+                  </div>
+
+                  <div class="testBubble">
+                    <p>What frustrations do users encounter when trying to donate?</p>
+                  </div>
+                </div>              
+
+              </div>
+              
               
             </div>                
         </div>
@@ -164,8 +170,13 @@
     </section>
 
     <section class="sectionBlue">
-      <div>
-
+      <div class="headsUp bubbleTop bubbleLeft">
+        <div class="speaker">
+          <img src="images/Speaker.png" class="figure-img img-fluid rounded" alt="...">
+        </div>       
+        <div class="bubble">
+          <div class="bubbleText">We wanted to see how other sites of the same audience look.</div>
+        </div>             
       </div>
       
       <div class="sectionHeader">
@@ -274,10 +285,15 @@
     </section>
         
 
-    <section>
-        <div>
-
-        </div>
+    <section id="persona">
+      <div class="headsUp bubbleTop bubbleLeft">
+        <div class="speaker">
+          <img src="images/Speaker.png" class="figure-img img-fluid rounded" alt="...">
+        </div>       
+        <div class="bubble bubbleBlue">
+          <div class="bubbleText">We created a persona to better empathize with our users.</div>
+        </div>             
+      </div>
         
         <div class="sectionHeader">
           <h2>Meet Evelyn Frame (Katherine's daughter)</h2>
@@ -330,9 +346,14 @@
     </section>
 
     <section>
-        <div>
-
-        </div>
+      <div class="headsUp bubbleTop bubbleLeft">
+        <div class="speaker">
+          <img src="images/Speaker.png" class="figure-img img-fluid rounded" alt="...">
+        </div>       
+        <div class="bubble bubbleBlue">
+          <div class="bubbleText">We determined an optimal user flow for Evelyn.</div>
+        </div>             
+      </div>
         
         <div class="sectionHeader">
             <h2>User Flow</h2>
@@ -343,18 +364,25 @@
         <div class="sectionHeader">
           <h2>Card Sorting</h2>
           <div class="cardSort">
-            <div>
+            <div class="cardSortText">
               <p>To make sure Evelyn can easily go through the optimal user flow, we performed card sorting on the original website’s navigation system.</p>
               <p>We aim to simplify the navigation to reduce redundant links that caused confusion and highlight Donation & Stories pages.</p>
             </div>
-            <img src="images/CardSort.png" class="img-fluid" alt="Responsive image">
+            <div>
+              <img src="images/CardSort.png" class="img-fluid" alt="Responsive image">
+            </div>
           </div>          
         </div>
     </section>
 
-    <section class="sectionBlue">
-      <div>
-
+    <section class="sectionBlue" id="prototype">
+      <div class="headsUp bubbleTop bubbleRight">           
+        <div class="bubble">
+          <div class="bubbleText">We started wireframing with our findings in mind.</div>
+        </div>
+        <div class="speaker">
+          <img src="images/Speaker.png" class="figure-img img-fluid rounded" alt="...">
+        </div>                 
       </div>
 
       <div class="sectionHeader">
@@ -365,22 +393,23 @@
       
       <div class="container protoGrid">
         <div class="row">
-          <div class="col-sm">
+          <div class="col-4">
             <p><strong>Version 1</strong></p>
             <p>Hero image with navigation laid on top.</p>
             <p><em><u>Users thought the navigation bar is blocking the hero image and that stories shoud be the main focus of the site.</u></em></p>
           </div>
-          <div class="col-sm">
+          <div class="col-4">
             <p><strong>Version 2</strong></p>
             <p>New Navigation bar, carousel banner. Moved stories before news.</p>
             <p><em><u>Users thought the navigation bar lacked hierarchy and the carousel was distracting.</u></em></p>
           </div>
-          <div class="col-sm">
+          <div class="col-4">
             <p><strong>Version 3</strong></p>
             <p>Improved navigation bar (closer to our final design), hero image with cards laid at its bottom.</p>            
           </div>
         </div>
       </div>
+
       <figure class="figure protoGraph">
         <img src="images/proto..png" class="figure-img img-fluid rounded" alt="...">
         <figcaption class="figure-caption">A caption for the above image.</figcaption>
@@ -404,13 +433,17 @@
     </section>
 
     <section>
-      <div>
-
+      <div class="headsUp bubbleTop bubbleLeft">
+        <div class="speaker">
+          <img src="images/Speaker.png" class="figure-img img-fluid rounded" alt="...">
+        </div>       
+        <div class="bubble bubbleBlue">
+          <div class="bubbleText">We wanted to know what users think of our new design.</div>
+        </div>             
       </div>
 
       <div class="sectionHeader">
         <h2>User Tests</h2>
-
       </div>
 
       <div class="container-fluid content">            
@@ -422,6 +455,30 @@
               </div>                  
             </div>
             <div class="col-sm">
+              <div>
+                <div class="testQs">
+                  <div class="testBubble">
+                    <p>Can users understand the purpose of this website?</p>
+                  </div>
+
+                  <div class="testBubble">
+                    <p>What are the pain points for our users to find resources through this website?</p>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="testQs">
+                  <div class="testBubble">
+                    <p>How might we make the website easier to navigate?</p>
+                  </div>
+
+                  <div class="testBubble">
+                    <p>What frustrations do users encounter when trying to donate?</p>
+                  </div>
+                </div>              
+
+              </div>
                 
 
 
@@ -429,7 +486,7 @@
         </div>
       </div>
 
-      <div class="sectionHeader">
+      <div class="content">
         <h2>Key Findings</h2>
       </div>
 
@@ -492,7 +549,7 @@
     <section>
       <div class="sectionHeader">
         <h2>If we had more time ...</h2>
-        <p>Here are some next-steps that we would take if we were given more time for this project.<br>1.Chat message feature on website-links to support groups and professionals who can chat in real time<br>Redesign the Ageless Alliance Flyer<br>Build connection with the Ageless Alliance NPO for more resources</p>
+        <p>Here are some next-steps that we would take if we were given more time for this project.<br>1. Chat message feature on website-links to support groups and professionals who can chat in real time<br>2. Redesign the Ageless Alliance Flyer<br>3. Build connection with the Ageless Alliance NPO for more resources</p>
       </div>
     </section>
 
